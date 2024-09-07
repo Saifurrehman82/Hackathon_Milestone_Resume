@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="resume">
+        <div class="img_cont"></div>
+        <h1 class="name">Saif Ur Rehman</h1>
+        <h1 class="pation">Full Stack Web Developer
+                            & AI Engineer
+        </h1>
+        <section id="parentButton">
+            <div class="buton-1">
+                <div>
+                    <!-- <button onclick="toggleSection('personal')">Personal Info</button> -->
+                    <button onclick="toggleSection('personal')">Personal Info</button>
+                    <section id="personal">
+                        <p><b>Name:</b> Saif-Ur-Rehman</p>
+                        <p><b>Father Name:</b> Saif-Ur-Rehman</p>
+                        <p><b>Date Of Birth:</b> 30-04-1992</p>
+                        <p><b>Address:</b> House # R-152, Sector 11-C-1, North Karachi</p>
+                        <p><b>Email:</b> saifsunnyd828@gmail.com</p>
+                    </section>
+                </div>
+                <div>
+                    <!-- <button onclick="toggleSection('education')">Education</button> -->
+                    <button onclick="toggleSection('education')">Education</button>
+                    <section id="education">
+                        <p><b>Degree</b>: BSc Computer Science</p>
+                        <p><b>University:</b> XYZ University</p>
+                    </section>
+                </div>
+                <div>
+                    <!-- <button onclick="toggleSection('skills')">Skills</button> -->
+                    <button onclick="toggleSection('skills')">Skills</button>
+                    <section id="skills">
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>HTML/CSS</li>
+                            <li>TypeScript</li>
+                            <li>Python</li>
+                            <li>Data Science</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <!-- <button onclick="toggleSection('work experience')">Work Experience</button> -->
+                    <button onclick="toggleSection('work experience')">Work Experience</button>
+                    <section id="work experience">
+                        <p><b>Name:</b> Digital Empowerment Pakistan</p>
+                        <p><b>Duration:</b> Six Month</p>
+                        <div class="cert"></div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
